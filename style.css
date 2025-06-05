@@ -1,0 +1,97 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9fdf8;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #388e3c;
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  gap: 20px;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color: #c8e6c9;
+}
+
+/* Seções principais */
+main {
+  margin-top: 30px;
+}
+
+.intro {
+  background-color: #e8f5e9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.content article {
+  background-color: #ffffff;
+  margin-bottom: 25px;
+  padding: 20px;
+  border-left: 5px solid #66bb6a;
+  border-radius: 8px;
+}
+
+.content article:nth-child(4) {
+  background-color: #f0f9f4;
+  border-left: 5px solid #26a69a;
+}
+
+.content img {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+/* Aside */
+aside.curiosidade {
+  background-color: #f1f8e9;
+  padding: 20px;
+  border-left: 5px solid #aed581;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+
+/* Rodapé */
+footer {
+  background-color: #a5d6a7;
+  padding: 15px;
+  text-align: center;
+  margin-top: 50px;
+  border-radius: 8px 8px 0 0;
+}
